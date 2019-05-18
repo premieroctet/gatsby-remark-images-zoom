@@ -1,9 +1,8 @@
 
 # 👀 gatsby-remark-images-zoom
 
-Bring [medium-zoom](https://github.com/francoischalifour/medium-zoom) to [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/)
+Bring [medium-zoom](https://github.com/francoischalifour/medium-zoom) to gatsby-remark-images. Try the demo [here](https://www.premieroctet.com/blog/react-amsterdam-2019/)
 
-> **Note**: this plugin requires [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/) and [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark)
 
 ## Install
 
@@ -11,6 +10,8 @@ Bring [medium-zoom](https://github.com/francoischalifour/medium-zoom) to [gatsby
 
 ## How to use
 
+👉 This plugin requires [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/) and [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark)
+ 
 ```js
 // In your gatsby-config.js, under gatsby-transformer-remark plugins
 
