@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-images-zoom",
   "description": "Add zoom to remark images.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Premier Octet <hello@premieroctet.com>",
   "bugs": {
     "url": "https://github.com/premieroctet/gatsby-remark-images-zoom/issues"

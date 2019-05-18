@@ -1,14 +1,17 @@
 import mediumZoom from "medium-zoom";
 
 const defaultOptions = {
-  margin: 20
+  margin: 20,
+  zIndex: 42
 };
 
-export const onClientEntry = () => {
+export const onClientEntry = (_, pluginOptions) => {
+  const { zIndex } = { ...defaultOptions, ...pluginOptions };
+
   // Inject styles.
   const styles = `
     .medium-zoom-overlay, .medium-zoom-image {
-      z-index: 42;
+      z-index: ${zIndex};
     }
   `;
 
