@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-remark-images-zoom",
+  "description": "Add zoom to remark images.",
+  "version": "1.0.0",
+  "author": "Premier Octet <hello@premieroctet.com>",
+  "bugs": {
+    "url": "https://github.com/premieroctet/gatsby-remark-images-zoom/issues"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.0.4"
+  },
+  "homepage": "https://github.com/premieroctet/gatsby-remark-images-zoom",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "image",
+    "markdown",
+    "remark",
+    "zoom"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "gatsby-remark-images": "^3.0.0"
+  },
+  "repository": "https://github.com/premieroctet/gatsby-remark-images-zoom"
+}
