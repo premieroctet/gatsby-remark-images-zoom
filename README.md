@@ -1,17 +1,17 @@
-
-# 👀 gatsby-remark-images-zoom
+# gatsby-remark-images-zoom 👀
 
 Bring [medium-zoom](https://github.com/francoischalifour/medium-zoom) to gatsby-remark-images. Try the demo [here](https://www.premieroctet.com/blog/react-amsterdam-2019/)
 
-
 ## Install
 
-`yarn add gatsby-remark-images-zoom`
+```
+yarn add gatsby-remark-images-zoom
+```
 
 ## How to use
 
-👉 This plugin requires [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/) and [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark)
- 
+👉 This plugin requires [gatsby-remark-images](https://www.gatsbyjs.org/packages/gatsby-remark-images/) and [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark). You have to set the `linkImagesToOriginal` option to `false` in gatsby-remark-images.
+
 ```js
 // In your gatsby-config.js, under gatsby-transformer-remark plugins
 
@@ -20,7 +20,12 @@ plugins: [
   resolve: `gatsby-transformer-remark`,
   options: {
     plugins: [
-      `gatsby-remark-images`,
+      {
+        resolve: 'gatsby-remark-images',
+        options: {
+          linkImagesToOriginal: false,
+        },
+      },
       `gatsby-remark-images-zoom`,
     ],
   }
