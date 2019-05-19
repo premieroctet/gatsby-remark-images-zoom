@@ -1,6 +1,10 @@
+<p align="center">
+<img width="207" alt="image" src="https://user-images.githubusercontent.com/1102595/56277368-832c6900-6104-11e9-93fa-9d27636e3fb5.png">
+</p>
+
 # gatsby-remark-images-zoom 👀
 
-Bring [medium-zoom](https://github.com/francoischalifour/medium-zoom) to gatsby-remark-images. Try the demo [here](https://www.premieroctet.com/blog/react-amsterdam-2019/)
+> Bring [medium-zoom](https://github.com/francoischalifour/medium-zoom) to gatsby-remark-images. Try the demo [here](https://www.premieroctet.com/blog/react-amsterdam-2019/)
 
 ## Install
 
