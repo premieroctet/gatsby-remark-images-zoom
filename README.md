@@ -20,20 +20,21 @@ yarn add gatsby-remark-images-zoom
 // In your gatsby-config.js, under gatsby-transformer-remark plugins
 
 plugins: [
-{
-  resolve: `gatsby-transformer-remark`,
-  options: {
-    plugins: [
-      {
-        resolve: 'gatsby-remark-images',
-        options: {
-          linkImagesToOriginal: false,
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        {
+          resolve: 'gatsby-remark-images',
+          options: {
+            linkImagesToOriginal: false,
+          },
         },
-      },
-      `gatsby-remark-images-zoom`,
-    ],
-  }
-];
+        `gatsby-remark-images-zoom`,
+      ],
+    },
+  },
+],
 ```
 
 ## Configuration
